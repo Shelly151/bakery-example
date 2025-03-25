@@ -36,10 +36,9 @@ Before starting, ensure you have:
 Open **PowerShell** and run:
 ```powershell
 packer --version
-
+```
 ![WhatsApp Image 2025-03-25 at 21 44 18_7973fafa](https://github.com/user-attachments/assets/583368a1-ce54-491e-a2be-0433511e40b9)
 
-```
 ✅ If successful, the **Packer version** will be displayed.
 
 ---
@@ -73,10 +72,9 @@ AWS Access Key ID: <Your AWS Key>
 AWS Secret Access Key: <Your AWS Secret>
 Default region name: us-east-1 (or your preferred region)
 Default output format: json (Press Enter)
-
+```
 ![WhatsApp Image 2025-03-25 at 21 49 04_4c11186c](https://github.com/user-attachments/assets/cdd21723-0e7f-4e30-a875-9ccdbaf6500a)
 
-```
 ✅ AWS CLI is now configured.
 
 ---
@@ -162,10 +160,9 @@ packer validate bakery.pkr.hcl
 Run the following command:
 ```powershell
 packer build bakery.pkr.hcl
-
+```
 ![WhatsApp Image 2025-03-25 at 21 53 07_c5f932da](https://github.com/user-attachments/assets/33b6830d-ff09-4122-befc-1ee254bb2b1f)
 
-```
 This will:
 - Create a **temporary EC2 instance**.
 - Install **Python 3.9**.
